@@ -59,7 +59,3 @@ data-structure-2026/
 - Searching Algorithms
 - Dynamic Programming
 - Greedy Algorithms
-
-## License
-
-MIT License
