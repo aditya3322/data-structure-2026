@@ -1,32 +1,64 @@
 # Data Structure 2026
 
-A comprehensive repository for learning and implementing data structures and algorithms.
+A comprehensive Java project for learning and implementing data structures and algorithms.
 
-## Projects
+## Getting Started
 
-### Getting Started
+### Prerequisites
+- Java 11 or higher
+- Maven 3.6 or higher
 
-Clone the repository and navigate to the project directory:
+### Clone and Setup
 
 ```bash
-git clone https://github.com/yourusername/data-structure-2026.git
+git clone https://github.com/aditya3322/data-structure-2026.git
 cd data-structure-2026
 ```
 
-## Structure
+### Build the Project
 
-- `src/` - Implementation code
-- `tests/` - Test files
-- `docs/` - Documentation
+```bash
+mvn clean install
+```
 
-## Topics Covered
+### Run the Project
+
+```bash
+mvn exec:java -Dexec.mainClass="Main"
+```
+
+### Run Tests
+
+```bash
+mvn test
+```
+
+## Project Structure
+
+```
+data-structure-2026/
+├── src/
+│   ├── main/
+│   │   ├── java/         # Java source files
+│   │   └── resources/    # Configuration files
+│   └── test/
+│       ├── java/         # Test files
+│       └── resources/    # Test resources
+├── docs/                 # Documentation
+├── pom.xml              # Maven configuration
+└── README.md
+```
+
+## Data Structures to Implement
 
 - Arrays and Linked Lists
 - Stacks and Queues
 - Trees and Graphs
-- Sorting and Searching
-- Dynamic Programming
 - Hash Tables
+- Sorting Algorithms
+- Searching Algorithms
+- Dynamic Programming
+- Greedy Algorithms
 
 ## License
 

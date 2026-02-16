@@ -63,3 +63,16 @@ yarn.lock
 .venv
 env/
 venv/
+
+# Maven
+target/
+.classpath
+.project
+.settings/
+*.class
+*.jar
+*.war
+*.ear
+
+# Java
+*.log
