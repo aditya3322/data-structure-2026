@@ -39,7 +39,29 @@ mvn test
 data-structure-2026/
 ├── src/
 │   ├── main/
-│   │   ├── java/         # Java source files
+│   │   ├── java/
+│   │   │   ├── Main.java
+│   │   │   └── neetcode/
+│   │   │       └── array/
+│   │   │           ├── TwoSum.java
+│   │   │           ├── ValidSudoku.java
+│   │   │           ├── LongestConsecutiveSequence.java
+│   │   │           ├── GroupAnagram.java
+│   │   │           ├── TopKFreqElements.java
+│   │   │           ├── stack/
+│   │   │           │   ├── ReversePolishNotation.java
+│   │   │           │   ├── ValidateParenthesis.java
+│   │   │           │   ├── CarFleet.java
+│   │   │           │   └── DailyTemperatures.java
+│   │   │           └── sliding/
+│   │   │               └── window/
+│   │   │                   ├── BuyStock.java
+│   │   │                   ├── LongestNonRepeatingSubstring.java
+│   │   │                   ├── DNASequences.java
+│   │   │                   ├── MinWIndow.java
+│   │   │                   ├── StringPermutation.java
+│   │   │                   ├── MaximumInSlidingWindow.java
+│   │   │                   └── LongestRepaceCharacterString.java
 │   │   └── resources/    # Configuration files
 │   └── test/
 │       ├── java/         # Test files
@@ -49,13 +71,26 @@ data-structure-2026/
 └── README.md
 ```
 
-## Data Structures to Implement
+## Implemented Algorithms
 
-- Arrays and Linked Lists
-- Stacks and Queues
-- Trees and Graphs
-- Hash Tables
-- Sorting Algorithms
-- Searching Algorithms
-- Dynamic Programming
-- Greedy Algorithms
+### Array Problems (`neetcode.array`)
+- **TwoSum** - Find two numbers that add up to target
+- **ValidSudoku** - Validate Sudoku board configuration
+- **LongestConsecutiveSequence** - Find longest consecutive elements sequence
+- **GroupAnagram** - Group words that are anagrams together
+- **TopKFreqElements** - Find K most frequent elements
+
+### Stack Problems (`neetcode.array.stack`)
+- **ReversePolishNotation** - Evaluate postfix expression
+- **ValidateParenthesis** - Check balanced parentheses
+- **CarFleet** - Calculate number of car fleets
+- **DailyTemperatures** - Find next warmer day indices
+
+### Sliding Window Problems (`neetcode.array.sliding.window`)
+- **BuyStock** - Best time to buy and sell stock
+- **LongestNonRepeatingSubstring** - Longest substring without repeating characters
+- **DNASequences** - Repeated DNA sequences
+- **MinWIndow** - Minimum window substring
+- **StringPermutation** - Permutation in string
+- **MaximumInSlidingWindow** - Sliding window maximum
+- **LongestRepaceCharacterString** - Longest repeating character replacement
